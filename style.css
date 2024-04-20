@@ -1,0 +1,33 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+background-color: #f0f0f0;   
+
+}
+
+.bloque1,.bloque2{
+  
+    display:  grid;
+    grid-template-columns: repeat(4,200px);
+   grid-gap: 20px;
+    align-items: center;
+    /*grid-template-columns: 100px 100px 100px;*/
+    /*grid-template-columns: repeat(4,100px);
+    grid-template-rows: 133px 133px 133px;*/
+}
+
+.hijo, .bloque2{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.hijo{
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.bloque2{
+    list-style-type: none;
+    padding: 0;
+    display: flexbox;
+}
